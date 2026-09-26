@@ -1,0 +1,18 @@
+[
+    {
+        "id": "539905",
+        "name": "Mamuka",
+        "password": "Mamuka123$",
+        "gel": -100,
+        "usd": 0,
+        "eur": 0
+    },
+    {
+        "id": "812049",
+        "name": "mamuka",
+        "password": "mamuka123",
+        "gel": 400.0,
+        "usd": 0,
+        "eur": 0
+    }
+]

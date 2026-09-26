@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Todo Dashboard</h1>
+
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search by title...">
+        
+        <select id="userFilter">
+            <option value="">All Users</option>
+        </select>
+
+        <select id="statusFilter">
+            <option value="">All Statuses</option>
+            <option value="true">Completed</option>
+            <option value="false">Not Completed</option>
+        </select>
+    </div>
+
+    <div id="todos"></div>
+
+    <div class="pagination">
+        <button id="prevBtn">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <h2>Todo Details</h2>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
